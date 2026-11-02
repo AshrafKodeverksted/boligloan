@@ -1,0 +1,14 @@
+# Backend secrets
+backend/.env
+backend/src/main/resources/application.properties
+
+# Java / Maven, denne mappen er ikke viktig, den genereres automatisk hver gang backenden kjøres
+backend/target/
+
+# Frontend, nodemodules viser bare data om packages og libraries som er installert, og tar mye plass.
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+frontend/.env
+frontend/.env.local
